@@ -69,7 +69,14 @@ main {
     margin-bottom: 25px;
     border-radius: 0px 0px 10px 10px;
 }
-.img {
+.img1 {
+    background-image: url('../imagens/bike.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img2 {
     background-image: url('../imagens/bike.jpg');
     background-position: right center;
     background-repeat: no-repeat;
@@ -78,7 +85,7 @@ main {
 }
 main h1, h2 {
     font-family: var(--fonttitulo);
-    color: var(--color4);
+    color: var(--color);
     padding: 10px;
 }
 main p {
