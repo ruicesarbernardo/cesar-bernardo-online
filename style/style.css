@@ -21,6 +21,7 @@ body {
     
     background-color: var(--color3);
     font-family: var(--fonttexto);
+    text-align: justify;
 }
 header {
     background-image: linear-gradient(to top, var(--color1), var(--color3) );
@@ -31,14 +32,14 @@ header {
 header h1 {
     font-family: var(--fontdestaque);
     font-size: 2.em;
-    text-shadow: 1px 0px 2px black;
-    padding-top: 30px;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 40px;
 }
 header p {
     font-family: var(--font3);
     width: 380px;
     margin: auto;
-    padding: 10px 10px 30px 10px;
+    padding: 20px 10px 30px 10px;
 }
 nav {
     background-color: var(--color1);
@@ -68,21 +69,29 @@ main {
     margin-bottom: 25px;
     border-radius: 0px 0px 10px 10px;
 }
-main h1 {
-    font-family: var(--fonttitulo);
-    color: var(--color4);
-    padding: 10px 0px;
+.img {
+    background-image: url('../imagens/bike.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-main h2 {
+main h1, h2 {
     font-family: var(--fonttitulo);
     color: var(--color4);
-    padding: 10px 0px;
+    padding: 10px;
 }
 main p {
-    padding-bottom: 10px;
-    line-height: 1.2em;
-    text-align: justify;
+    padding: 10px;
+    line-height: 1.4em;
 }
+.img p {
+    max-width: 500px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    text-shadow: 0px 0px 1px black;
+}    
 footer {
     background-color: var(--color1);
     text-align: center;
