@@ -101,6 +101,7 @@ article.img {
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 70px;
+    margin-top: 30px;
 }
 article#img1 {
     background-image: url('../imagens/bike.jpg');
