@@ -14,44 +14,49 @@
     --color5: #EBC031;
 }
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: auto;
 }
-body {
-    
+body { 
     background-color: var(--color3);
     font-family: var(--fonttexto);
     text-align: justify;
 }
+
 header {
     background-image: linear-gradient(to top, var(--color1), var(--color3) );
     color: white;
     text-align: center;
     min-height: 150px;
+    margin: auto;
 }
+
 header h1 {
     font-family: var(--fontdestaque);
     font-size: 2.em;
     text-shadow: 1px 1px 2px black;
     padding-top: 40px;
 }
+
 header p {
     font-family: var(--font3);
     width: 380px;
     margin: auto;
     padding: 20px 10px 30px 10px;
 }
+
 nav {
     background-color: var(--color1);
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
 }
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px 0px 10px 05px;
     font-family: var(--fonttitulo);
 }
+
 nav a:hover {
     background-color: var(--color5);
     border-radius: 15px;
@@ -60,58 +65,58 @@ nav a:hover {
     color: var(--color1);
     padding: 0px 30px 0px 30px;
 }
+
 main {
     max-width: 800px;
-    margin: auto;
-    background-color: white;
-    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     margin-bottom: 25px;
     border-radius: 0px 0px 10px 10px;
 }
-.img1 {
-    background-image: url('../imagens/bike.jpg');
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.img2 {
-    background-image: url('../imagens/TRAIL1.JPG');
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 main h1, h2 {
     font-family: var(--fonttitulo);
     color: var(--color4);
     padding: 10px;
 }
+main h1 {
+    font-size: 2em;
+}
+main h2 {
+    font-size: 1.6em;
+}
 main p {
     padding: 10px;
-    line-height: 1.4em;
+    line-height: 1.6em;
+    margin: 20px;
 }
-.img1 p{
-    max-width: 500px;
+article {
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.363);
+}
+article.img {
+    padding: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+article#img1 {
+    background-image: url('../imagens/bike.jpg');
+}
+.img > p {
     color: white;
-    text-shadow: 0px 0px 1px black;
-}   
-.img2 p{
-    max-width: 500px;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.363);
-    color: white;
-    text-shadow: 0px 0px 1px black;
-} 
+    text-shadow: 1px 1px 2px black;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 10px;
+    padding: 30px 30px;
+}
 footer {
+    margin: auto;
     background-color: var(--color1);
     text-align: center;
     color: white;
     font-family: var(--fontdestaque);
-    margin: 0px;
 }
 footer p {
     padding: 8px;
