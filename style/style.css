@@ -34,7 +34,7 @@ header {
 header h1 {
     font-family: var(--fontdestaque);
     font-size: 2.em;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 3px black;
     padding-top: 40px;
 }
 
@@ -43,6 +43,7 @@ header p {
     width: 380px;
     margin: auto;
     padding: 20px 10px 30px 10px;
+    text-shadow: 0px 1px 9px black;
 }
 
 nav {
@@ -89,8 +90,16 @@ main h1 {
 main h2 {
     font-size: 1.6em;
 }
+h1#intro {
+    text-shadow: 1px 1px 0px black;
+}
+p#intro {
+    text-shadow: 0px 1px 0px black;
+    font-size: 1em;
+}
 main p {
     padding: 10px;
+    font-size: .9em;
     line-height: 1.6em;
     margin: 20px;
 }
