@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    header > h1 {
+        font-size: 2em;
+    }
+    header > p {
+        font-size: 1.2em;
+        max-width: 450px;
+    }
+    span#burguer {
+        display: none;
+    }
+    menu {
+        text-align: center;
+    }
+    menu li {
+        display: inline-block;
+    }
+    menu > ul > li > a {
+        border-top: none;
+    }
+    main {
+        max-width: 650px;
+        transition: 1s;
+    }
+}
