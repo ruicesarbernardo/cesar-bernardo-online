@@ -84,14 +84,39 @@ menu > ul > li > a:hover {
     
 }
 main {
+    position: relative;
     background-color: white;
     padding: 20px;
     margin: auto;
     max-width: 80vw;
     transition: .6s;
 }
-main p {
+main > p {
     text-align: justify;
+}
+main > section#introducaogeral {
+    
+    background: green url(../imagens/bike.jpg) center center;
+    background-attachment: fixed;
+    padding: 40px;
+    border-radius: 10px;
+}
+section#introducaogeral > h1   {
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0px 0px;
+ 
+}
+section#introducaogeral > p {
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
 }
 footer {
     background-color: var(--color1);
@@ -106,4 +131,7 @@ footer a {
     text-decoration: none;
     font-family: var(--fontdestaque);
     color: var(--color5);
+}
+footer a:hover {
+    color: var(--color3);
 }
