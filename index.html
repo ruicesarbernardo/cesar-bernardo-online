@@ -18,8 +18,8 @@
     <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
         menu_open
         </span>
-    <menu id="itens">
-        <ul>
+    <menu>
+        <ul id="itens">
             <li><a href="paginassite/biografia.html">Biografia</a></li>
             <li><a href="#">Perspectivas</a></li>          
             <li><a href="#">Desportos</a></li>
@@ -66,9 +66,9 @@
 
     <script>
         function mudouTamanho() {
-            if (innerWidth >= 768) {
-                itens.style.display = "block"
-            } else { itens.style.display = "none"}
+            if (innerWidth < 768) {
+                itens.style.display = "none"
+            } else { itens.style.display = "block"}
         }
     </script>
     <script>
