@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-@media screen and (max 768px) {
-    menu {
-     display: inline-flex;   
-    }
-}
