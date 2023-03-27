@@ -14,21 +14,22 @@
         <h1 id="orig">César Bernardo Online</h1>
         <h1 id="peq">César Bernardo</h1>
         <p>do pouco ao muito, tudo pode ser analisado desde uma perspectiva, aqui será pela minha...</p>
-    </header>
-    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-        menu_open
-        </span>
-    <menu>
-        <ul id="itens">
-            <li><a href="paginassite/biografia.html">Biografia</a></li>
-            <li><a href="#">Perspectivas</a></li>          
-            <li><a href="#">Desportos</a></li>
-            <li><a href="paginassite/registosfotograficos.html">Fotografia</a></li>
-            <li><a href="#">Culinária</a></li>
-            <li><a href="emailto:icc@sapo.pt">Contacto</a></li>
-        </ul>
-    </menu>
-    
+
+        <span id="burguer"
+        class="material-symbols-outlined" onclick="clickMenu()">
+            menu_open
+            </span>
+        <menu  id="itens">
+            <ul>
+                <li><a href="paginassite/biografia.html">Biografia</a></li>
+                <li><a href="#">Perspectivas</a></li>          
+                <li><a href="#">Desportos</a></li>
+                <li><a href="paginassite/registosfotograficos.html">Fotografia</a></li>
+                <li><a href="#">Culinária</a></li>
+                <li><a href="emailto:icc@sapo.pt">Contacto</a></li>
+            </ul>
+        </menu>
+    </header>     
     <main>
         <section id="introducaogeral">
             <h1 id="intro">Bem vindo</h1>
@@ -66,16 +67,16 @@
 
     <script>
         function mudouTamanho() {
-            if (innerWidth < 768) {
-                itens.style.display = "none"
-            } else { itens.style.display = "block"}
+            if (innerWidth >= 768) {
+                itens.style.display = "block"
+            } else { itens.style.display = "none"}
         }
     </script>
     <script>
         function clickMenu() {
-            if (itens.style.display == "block") {
-                itens.style.display = "none"
-            } else { itens.style.display = "block"}
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else { itens.style.display = 'block'}
         }
     </script>
 </body>
