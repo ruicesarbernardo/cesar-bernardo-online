@@ -17,13 +17,10 @@
     margin: 0px;
     padding: 0px;
 }
-html, body {
-    width: 100vw;
-    height: 100vh;
-    font-family: var(--fonttexto);
-}
+
 body {
     background-color: var(--color3);
+    font-family: var(--fonttexto);
 }
 header {
     display: block;
@@ -70,7 +67,6 @@ span#burguer:hover {
     background-color: var(--color4);
     color: var(--color1);
     transition: 1s;
-    
 }
 menu {
     display: none;
@@ -95,8 +91,7 @@ menu > ul > li > a:hover {
     color: white;
     font-weight: bold;
     border-radius: 10px;
-    transition: .9s;
-    
+    transition: .9s;  
 }
 main {
     position: relative;
@@ -127,7 +122,6 @@ main p {
     text-align: justify;
     padding: 10px;
     margin-bottom: 5px;
-
 }
 section#introducaogeral > h1   {
     padding: 20px;
